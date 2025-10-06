@@ -32,7 +32,7 @@ nav>ul {
     gap: 2rem;
 }
 
-/*CUERPO DE PRODUCTOS*/
+/*PRODUCTOS*/
 
 .container-productos {
     background-color: #FFA500;
@@ -48,6 +48,17 @@ nav>ul {
     color: rgb(0, 0, 0) !important;
 }
 
+#productos .card {
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+#productos .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
 article {
     border-radius: 4% !important;
 }
@@ -60,7 +71,7 @@ article {
 }
 
 
-/*FOOTER */
+/*FOOTER*/
 footer {
     background-color: rgb(216, 59, 130);
 }
