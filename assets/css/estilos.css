@@ -34,6 +34,9 @@ nav > ul{
 
 /*CUERPO DE PRODUCTOS*/
 
+article{
+    border-radius: 4% !important;
+}
 /*FOOTER */
 footer {
     background-color: rgb(216, 59, 130);
