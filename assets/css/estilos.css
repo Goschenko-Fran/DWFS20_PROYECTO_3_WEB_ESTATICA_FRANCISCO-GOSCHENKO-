@@ -30,6 +30,44 @@
 
 /*HEADER*/
 
+
+.Textos-ppl div {
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    padding: 4px;
+    font-size: 12px;
+
+}
+
+.logo-chico {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+.video-funko {
+    width: 100%;
+    max-width: 700px;
+    height: 700px;
+    border-radius: 12px;
+    display: block;
+    margin: 20px auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+input[type="email-usuario"] {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
 header {
     background-image: url("/assets/img/fondo-web-ppl.jpg");
     background-size: contain;
@@ -39,6 +77,7 @@ header {
     min-height: 100vh;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: aliceblue;
 }
 
 /*BARRA SUPERIOR*/

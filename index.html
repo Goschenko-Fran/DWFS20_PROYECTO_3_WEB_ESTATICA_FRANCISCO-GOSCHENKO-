@@ -64,51 +64,87 @@
     </nav>
 
     <header>
-        <h1>FUNKO PLACE</h1>
-        <h3>Tienda Online de Funko Pop Originales</h3>
+        <h1 class="mx-5">FUNKO PLACE</h1>
+        <h3 class="mx-5">Tienda Online de Funko Pop Originales</h3>
         <div class="row g-3"></div>
+        <section class="my-3 py-3 px-4">
+            <div class="row g-3">
 
-        <section id="usurio">
-            <label for="email">Correo electronico:</label><br>
-            <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required><br><br>
-            <button>Inicio Sesión</button>
-            <button>Registro</button>
-        </section>
+                <div class="col-lg-8">
+                    <div class="row g-3 d-flex">
+                        <div class="col-12">
+                            <section class="Textos-ppl" id="nosotros">
+                                <div class="p-5">
+                                    <img src="/assets/img/Logos/02LOGO.png" class="logo-chico card-img-top"
+                                        alt="Nosotros-Png.">
+                                    <h5 class="card-title my-3">FunkoPlace</h5>
+                                    <p>
+                                        Somos más que una tienda: somos una comunidad de coleccionistas,
+                                        fans y soñadores que
+                                        disfrutan llevar la cultura pop a cada rincón de Chile.
+                                        Desde nuestros inicios, nos hemos dedicado a ofrecer Funko Pop originales,
+                                        ediciones limitadas y
+                                        piezas exclusivas, siempre con la mejor atención y pasión por el detalle.
+                                        Creemos en el poder de coleccionar con propósito. Por eso, trabajamos junto a
+                                        RecyclePop para dar
+                                        nueva vida a materiales reciclados, creando figuras únicas y contribuyendo a un
+                                        planeta más verde.
+                                        En FunkoPlace celebramos la creatividad, la nostalgia y el espíritu geek.
+                                        💫 Colecciona tus historias, comparte tu pasión y únete al movimiento
+                                        FunkoPlace.
+                                    </p>
+                                </div>
+                            </section>
+                        </div>
 
-        <section id="nosotros">
-            <div>
-                <p>
-                    En FunkoPlace somos más que una tienda: somos una comunidad de coleccionistas, fans y soñadores que
-                    disfrutan llevar la cultura pop a cada rincón de Chile.
-                    Desde nuestros inicios, nos hemos dedicado a ofrecer Funko Pop originales, ediciones limitadas y
-                    piezas exclusivas, siempre con la mejor atención y pasión por el detalle.
-                    Creemos en el poder de coleccionar con propósito. Por eso, trabajamos junto a RecyclePop para dar
-                    nueva vida a materiales reciclados, creando figuras únicas y contribuyendo a un planeta más verde.
-                    En FunkoPlace celebramos la creatividad, la nostalgia y el espíritu geek.
-                    💫 Colecciona tus historias, comparte tu pasión y únete al movimiento FunkoPlace.
-                </p>
-                <img src="/assets/img/Logos/02LOGO.png" alt="Nosotros-Png.">
+                        <div class="col-12">
+                            <section class="Textos-ppl" id="materiales">
+                                <article>
+                                    <div class="p-5">
+                                        <img src="/assets/img/Logos/01LOGO.png" class="logo-chico card-img-top"
+                                            alt="ReciclajeFunkoWalle-Png.">
+                                        <h5 class="card-title my-3">FunkoPlace & RecyclePop</h5>
+                                        <p> FunkoPlace se compromete con un planeta más limpio y sostenible.</p>
+                                        <p> Nos enorgullece colaborar con RecyclePop, una iniciativa
+                                            que transforma plásticos 100% reciclados
+                                            —extraídos del mar y de los bosques de Chile—
+                                            en nuevos Funko Pop llenos de vida.</p>
+                                        <p> Gracias a esta alianza y a los fans que donan sus figuras usadas,
+                                            damos una segunda oportunidad a los materiales y
+                                            creamos los personajes favoritos del mundo,
+                                            ahora más responsables con el medioambiente.</p>
+                                    </div>
+                                </article>
+
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <article class="card h-100 text-center rounded-5">
+                        <div class="d-flex align-items-center justify-content-center" style="height: 100%;">
+                            <video class="video-funko" autoplay muted loop playsinline preload="auto">
+                                <source src="assets/img/video-funko.mp4" type="video/mp4">
+                                Tu navegador no soporta el video.
+                            </video>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Funko Usuario</h5>
+                            <section id="usurio">
+                                <input type="email-usuario" id="email" name="email" placeholder="tucorreo@ejemplo.com"
+                                    required><br><br>
+                                <button class="btn btn-naranja">Inicio Sesión</button>
+                                <button class="btn btn-naranja">Registro</button>
+                            </section>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
-
-        <section id="materiales">
-            <article>
-                <h2>FunkoPlace & RecyclePop</h2>
-                <div>
-                    <p> FunkoPlace se compromete con un planeta más limpio y sostenible.</p>
-                    <p> Nos enorgullece colaborar con RecyclePop, una iniciativa
-                        que transforma plásticos 100% reciclados
-                        —extraídos del mar y de los bosques de Chile—
-                        en nuevos Funko Pop llenos de vida.</p>
-                    <p> Gracias a esta alianza y a los fans que donan sus figuras usadas,
-                        damos una segunda oportunidad a los materiales y
-                        creamos los personajes favoritos del mundo,
-                        ahora más responsables con el medioambiente.</p>
-                    <img src="/assets/img/Logos/01LOGO.png" alt="ReciclajeFunkoWalle-Png.">
-                </div>
-            </article>
-        </section>
     </header>
+
+
 
     <main>
         <section id="PreVenta" class="Carruseles-web">
@@ -119,27 +155,27 @@
                     <div class="carousel-item active my-3">
                         <div class="d-flex">
                             <img src="./assets/img/p1.jpg" class="d-block w-50" alt="Anime-DemonSlayer"
-                                style="width: 100% height: 300px object-fit: cover">
+                                style="width: 100%; height:auto; object-fit: cover;">
                             <img src="/assets/img/p2.jpg" class="d-block w-50" alt="Disney-Phineas&Ferb"
-                                style="width: 100% height: 300px object-fit: cover">
+                                style="width: 100%; height:auto; object-fit: cover;">
                         </div>
                     </div>
 
                     <div class="carousel-item active my-3">
                         <div class="d-flex">
                             <img src="/assets/img/p3.jpg" class="d-block w-50" alt="Anime-OnePace"
-                                style="width: 100% height: 300px object-fit: cover">
+                                style="width: 100%; height:auto; object-fit: cover;">
                             <img src="/assets/img/p4.jpg" class="d-block w-50" alt="Series-Simpson"
-                                style="width: 100% height: 300px object-fit: cover">
+                                style="width: 100%; height:auto; object-fit: cover;">
                         </div>
                     </div>
 
                     <div class="carousel-item my-3">
                         <div class="d-flex">
                             <img src="/assets/img/p5.jpg" class="d-block w-50" alt="Anime-kaiju8"
-                                style="width: 100% height: 300px; object-fit: cover">
+                                style="width: 100%; height:auto; object-fit: cover;">
                             <img src="/assets/img/p6.jpg" class="d-block w-50" alt="Series-PowerRanger"
-                                style="width: 100% height: 300px; object-fit: cover">
+                                style="width: 100%; height:auto; object-fit: cover;">
                         </div>
                     </div>
                 </div>
@@ -270,22 +306,22 @@
                             <div class="row g-2">
                                 <div class="col-2"><img src="./assets/img/ofertas/LLAVER-ETERNALIKARIS.jpg"
                                         class="img-fluid rounded object-fit-cover" alt="LLAVER-ETERNALIKARIS"
-                                        style="width: 100% height: 50px"></div>
+                                        style="width: 100%; height:auto;"></div>
                                 <div class="col-2"><img src="./assets/img/ofertas/LLAVER-WOMNG.jpg"
                                         class="img-fluid rounded object-fit-cover" alt="LLAVER-WOMNG"
-                                        style=" width: 100% height: 50p;"></div>
+                                        style="width: 100%; height:auto;"></div>
                                 <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-CATWOMAN.jpg"
                                         class="img-fluid rounded object-fit-cover" alt="LLAVERO-CATWOMAN"
-                                        style="width: 100% height: 50px"></div>
+                                        style="width: 100%; height:auto;"></div>
                                 <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-ELEVEN.jpg"
                                         class="img-fluid rounded object-fit-cover" alt="LLAVERO-ELEVEN"
-                                        style="width: 100% height: 50px"></div>
+                                        style="width: 100%; height:auto;"></div>
                                 <div class="col-2"><img src="./assets/img/ofertas/LLAVER-ETERNALSERSI.jpg"
                                         class="img-fluid rounded object-fit-cover" alt="LLAVER-ETERNALSERSI"
-                                        style="width: 100% height: 50px"></div>
+                                        style="width: 100%; height:auto;"></div>
                                 <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-GORR.jpg"
                                         class="img-fluid rounded object-fit-cover" alt="LLAVERO-GORR"
-                                        style="width: 100% height: 50px"></div>
+                                        style="width: 100%; height:auto;"></div>
                             </div>
                         </div>
                     </div>
@@ -295,22 +331,22 @@
                             <div class="row g-2">
                                 <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-HERMIONE.jpg"
                                         class="img-fluid rounded object-fit-cover" alt="LLAVERO-HERMIONE"
-                                        style="width: 100% height: 50px"></div>
+                                        style="width: 100%; height: 50px"></div>
                                 <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-IZUKU.jpg"
                                         class="img-fluid rounded object-fit-cover" alt="LLAVERO-IZUKU"
-                                        style="width: 100% height: 50px"></div>
+                                        style="width: 100%; height: 50px"></div>
                                 <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-LILO.jpg"
                                         class="img-fluid rounded object-fit-cover" alt="LLAVERO-LILO"
-                                        style="width: 100% height: 50px"></div>
+                                        style="width: 100%; height: 50px"></div>
                                 <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-MANDALORIAN.jpg"
                                         class="img-fluid rounded object-fit-cover" alt="LLAVERO-MANDALORIAN"
-                                        style="width: 100% height: 50px"></div>
+                                        style="width: 100%; height: 50px"></div>
                                 <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-NARUTO.jpg"
                                         class="img-fluid rounded object-fit-cover" alt="LLAVERO-NARUTO"
-                                        style="width: 100% height: 50px"></div>
+                                        style="width: 100%; height: 50px"></div>
                                 <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-SONIC.jpg"
                                         class="img-fluid rounded object-fit-cover" alt="LLAVERO-SONIC"
-                                        style="width: 100% height: 50px"></div>
+                                        style="width: 100%; height: 50px"></div>
                             </div>
                         </div>
                     </div>
@@ -329,6 +365,8 @@
             </div>
         </section>
     </main>
+
+
 
     <footer>
         <section id="contacto" class="col-12 py-4 px-4">
