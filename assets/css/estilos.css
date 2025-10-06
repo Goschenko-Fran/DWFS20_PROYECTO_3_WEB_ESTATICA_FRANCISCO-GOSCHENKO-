@@ -38,6 +38,19 @@ article{
     border-radius: 4% !important;
 }
 
+.productos {    
+    background-color: #e69100 !important;
+    color: white;
+    text-align: left;
+}
+
+.Carruseles-web {
+    background-color: #210e42;
+    color: white;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
 
 /*FOOTER */
 footer {
