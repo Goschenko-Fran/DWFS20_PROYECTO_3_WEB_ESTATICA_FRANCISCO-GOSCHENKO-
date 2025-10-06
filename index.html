@@ -66,6 +66,7 @@
     <header>
         <h1>FUNKO PLACE</h1>
         <h3>Tienda Online de Funko Pop Originales</h3>
+        <div class="row g-3"></div>
 
         <section id="usurio">
             <label for="email">Correo electronico:</label><br>
@@ -73,9 +74,7 @@
             <button>Inicio Sesión</button>
             <button>Registro</button>
         </section>
-    </header>
 
-    <main>
         <section id="nosotros">
             <div>
                 <p>
@@ -109,221 +108,227 @@
                 </div>
             </article>
         </section>
+    </header>
+
+    <main>
+        <section id="PreVenta" class="Carruseles-web">
+            <h4 class="px-3 py-2 mb-0">Nuevo / Ultimos Lanzamientos</h4>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner mt-0">
+
+                    <div class="carousel-item active my-3">
+                        <div class="d-flex">
+                            <img src="./assets/img/p1.jpg" class="d-block w-50" alt="Anime-DemonSlayer"
+                                style="width: 100% height: 300px object-fit: cover">
+                            <img src="/assets/img/p2.jpg" class="d-block w-50" alt="Disney-Phineas&Ferb"
+                                style="width: 100% height: 300px object-fit: cover">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item active my-3">
+                        <div class="d-flex">
+                            <img src="/assets/img/p3.jpg" class="d-block w-50" alt="Anime-OnePace"
+                                style="width: 100% height: 300px object-fit: cover">
+                            <img src="/assets/img/p4.jpg" class="d-block w-50" alt="Series-Simpson"
+                                style="width: 100% height: 300px object-fit: cover">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item my-3">
+                        <div class="d-flex">
+                            <img src="/assets/img/p5.jpg" class="d-block w-50" alt="Anime-kaiju8"
+                                style="width: 100% height: 300px; object-fit: cover">
+                            <img src="/assets/img/p6.jpg" class="d-block w-50" alt="Series-PowerRanger"
+                                style="width: 100% height: 300px; object-fit: cover">
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="container-productos my-3 py-3 px-4" id="productos">
+            <h2 class="mb-4">Productos / Elige tu categoria</h2>
+            <div class="row g-3">
+
+                <div class="col-lg-8">
+                    <div class="row g-3">
+                        <div class="col-6 col-md-4">
+                            <article class="card h-100 text-center rounded-0">
+                                <div class="ratio ratio-1x1">
+                                    <img src="/assets/img/Productos/PERSONALIZADO.jpg"
+                                        class="card-img-top object-fit-cover" alt="Funko-Personalizado">
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-title">Funko Personalizado</h6>
+                                    <p class="card-text">Tu funko A MEDIDA desde $18.990</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-6 col-md-4">
+                            <article class="card h-100 text-center rounded-0">
+                                <div class="ratio ratio-1x1">
+                                    <img src="/assets/img/Productos/ANIME-DEMON SLAYER.jpg"
+                                        class="card-img-top object-fit-cover" alt="Funko-DemonSlayer">
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-title">Funko ANIME</h6>
+                                    <p class="card-text">Tus funko ANIME desde $9.990</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-6 col-md-4">
+                            <article class="card h-100 text-center rounded-0">
+                                <div class="ratio ratio-1x1">
+                                    <img src="/assets/img/Productos/MARVEL CAPITAN-A.jpg"
+                                        class="card-img-top object-fit-cover" alt="Funko-CapitanAmerica">
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-title">Funko COMIC'S</h6>
+                                    <p class="card-text">Tus funko COMIC'S desde $9.990</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-6 col-md-4">
+                            <article class="card h-100 text-center rounded-0">
+                                <div class="ratio ratio-1x1">
+                                    <img src="/assets/img/Productos/STAR-WARS.jpg" class="card-img-top object-fit-cover"
+                                        alt="Funko-StarWars">
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-title">Funko STAR-WARS</h6>
+                                    <p class="card-text">Tus funko STAR-WARS desde $9.990</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-6 col-md-4">
+                            <article class="card h-100 text-center rounded-0">
+                                <div class="ratio ratio-1x1">
+                                    <img src="/assets/img/Productos/DISNEY-MALEFICA.jpg"
+                                        class="card-img-top object-fit-cover" alt="Funko-Malefica">
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-title">Funko DISNEY</h6>
+                                    <p class="card-text">Tus funko DISNEY desde $9.990</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-6 col-md-4">
+                            <article class="card h-100 text-center rounded-0">
+                                <div class="ratio ratio-1x1">
+                                    <img src="/assets/img/Productos/HARRY_POTTER.jpg"
+                                        class="card-img-top object-fit-cover" alt="Funko-HarryPotter">
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-title">Funko WIZARDING WORLD</h6>
+                                    <p class="card-text">Tus funko WIZARDING WORLD desde $9.990</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <article class="card h-100 text-center rounded-0">
+
+                        <div class="d-flex align-items-center justify-content-center" style="height: 100%;">
+                            <img src="/assets/img/Productos/EXCLUSIVO-ELEVEN..jpg"
+                                class="img-fluid rounded object-fit-contain p-2" alt="Funko-StangerThings"
+                                style="max-height: 5000px;">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Funko ICÓNICOS</h5>
+                            <p class="card-text">Ediciones especiales de shows icónicos, desde $14.990</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <Section id="sale" class="Carruseles-web">
+            <h4 class="px-3 py-2 mb-0">Sale / Ultimas Oportunidades</h4>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="container my-3">
+                            <div class="row g-2">
+                                <div class="col-2"><img src="./assets/img/ofertas/LLAVER-ETERNALIKARIS.jpg"
+                                        class="img-fluid rounded object-fit-cover" alt="LLAVER-ETERNALIKARIS"
+                                        style="width: 100% height: 50px"></div>
+                                <div class="col-2"><img src="./assets/img/ofertas/LLAVER-WOMNG.jpg"
+                                        class="img-fluid rounded object-fit-cover" alt="LLAVER-WOMNG"
+                                        style=" width: 100% height: 50p;"></div>
+                                <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-CATWOMAN.jpg"
+                                        class="img-fluid rounded object-fit-cover" alt="LLAVERO-CATWOMAN"
+                                        style="width: 100% height: 50px"></div>
+                                <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-ELEVEN.jpg"
+                                        class="img-fluid rounded object-fit-cover" alt="LLAVERO-ELEVEN"
+                                        style="width: 100% height: 50px"></div>
+                                <div class="col-2"><img src="./assets/img/ofertas/LLAVER-ETERNALSERSI.jpg"
+                                        class="img-fluid rounded object-fit-cover" alt="LLAVER-ETERNALSERSI"
+                                        style="width: 100% height: 50px"></div>
+                                <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-GORR.jpg"
+                                        class="img-fluid rounded object-fit-cover" alt="LLAVERO-GORR"
+                                        style="width: 100% height: 50px"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item my-3">
+                        <div class="container">
+                            <div class="row g-2">
+                                <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-HERMIONE.jpg"
+                                        class="img-fluid rounded object-fit-cover" alt="LLAVERO-HERMIONE"
+                                        style="width: 100% height: 50px"></div>
+                                <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-IZUKU.jpg"
+                                        class="img-fluid rounded object-fit-cover" alt="LLAVERO-IZUKU"
+                                        style="width: 100% height: 50px"></div>
+                                <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-LILO.jpg"
+                                        class="img-fluid rounded object-fit-cover" alt="LLAVERO-LILO"
+                                        style="width: 100% height: 50px"></div>
+                                <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-MANDALORIAN.jpg"
+                                        class="img-fluid rounded object-fit-cover" alt="LLAVERO-MANDALORIAN"
+                                        style="width: 100% height: 50px"></div>
+                                <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-NARUTO.jpg"
+                                        class="img-fluid rounded object-fit-cover" alt="LLAVERO-NARUTO"
+                                        style="width: 100% height: 50px"></div>
+                                <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-SONIC.jpg"
+                                        class="img-fluid rounded object-fit-cover" alt="LLAVERO-SONIC"
+                                        style="width: 100% height: 50px"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
     </main>
-
-    <section id="PreVenta" class="Carruseles-web">
-        <h4 class="px-3 py-2 mb-0">Nuevo / Ultimos Lanzamientos</h4>
-        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner mt-0">
-
-                <div class="carousel-item active my-3">
-                    <div class="d-flex">
-                        <img src="./assets/img/p1.jpg" class="d-block w-50" alt="Anime-DemonSlayer"
-                            style="width: 100% height: 300px; object-fit: cover;">
-                        <img src="/assets/img/p2.jpg" class="d-block w-50" alt="Disney-Phineas&Ferb"
-                            style="width: 100% height: 300px; object-fit: cover;">
-                    </div>
-                </div>
-
-                <div class="carousel-item active my-3">
-                    <div class="d-flex">
-                        <img src="/assets/img/p3.jpg" class="d-block w-50" alt="Anime-OnePace"
-                            style="width: 100% height: 300px; object-fit: cover;">
-                        <img src="/assets/img/p4.jpg" class="d-block w-50" alt="Series-Simpson"
-                            style="width: 100% height: 300px; object-fit: cover;">
-                    </div>
-                </div>
-
-                <div class="carousel-item my-3">
-                    <div class="d-flex">
-                        <img src="/assets/img/p5.jpg" class="d-block w-50" alt="Anime-kaiju8"
-                            style="width: 100% height: 300px; object-fit: cover;">
-                        <img src="/assets/img/p6.jpg" class="d-block w-50" alt="Series-PowerRanger"
-                            style="width: 100% height: 300px; object-fit: cover;">
-                    </div>
-                </div>
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Siguiente</span>
-            </button>
-        </div>
-    </section>
-
-    <section class="container-productos my-3 py-3 px-4" id="productos">
-        <h2 class="mb-4">Productos / Elige tu categoria</h2>
-        <div class="row g-3">
-
-            <div class="col-lg-8">
-                <div class="row g-3">
-                    <div class="col-6 col-md-4">
-                        <article class="card h-100 text-center rounded-0">
-                            <div class="ratio ratio-1x1">
-                                <img src="/assets/img/Productos/PERSONALIZADO.jpg" class="card-img-top object-fit-cover"
-                                    alt="Funko-Personalizado">
-                            </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Funko Personalizado</h6>
-                                <p class="card-text">Tu funko A MEDIDA desde $18.990</p>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="col-6 col-md-4">
-                        <article class="card h-100 text-center rounded-0">
-                            <div class="ratio ratio-1x1">
-                                <img src="/assets/img/Productos/ANIME-DEMON SLAYER.jpg"
-                                    class="card-img-top object-fit-cover" alt="Funko-DemonSlayer">
-                            </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Funko ANIME</h6>
-                                <p class="card-text">Tus funko ANIME desde $9.990</p>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="col-6 col-md-4">
-                        <article class="card h-100 text-center rounded-0">
-                            <div class="ratio ratio-1x1">
-                                <img src="/assets/img/Productos/MARVEL CAPITAN-A.jpg"
-                                    class="card-img-top object-fit-cover" alt="Funko-CapitanAmerica">
-                            </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Funko COMIC'S</h6>
-                                <p class="card-text">Tus funko COMIC'S desde $9.990</p>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="col-6 col-md-4">
-                        <article class="card h-100 text-center rounded-0">
-                            <div class="ratio ratio-1x1">
-                                <img src="/assets/img/Productos/STAR-WARS.jpg" class="card-img-top object-fit-cover"
-                                    alt="Funko-StarWars">
-                            </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Funko STAR-WARS</h6>
-                                <p class="card-text">Tus funko STAR-WARS desde $9.990</p>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="col-6 col-md-4">
-                        <article class="card h-100 text-center rounded-0">
-                            <div class="ratio ratio-1x1">
-                                <img src="/assets/img/Productos/DISNEY-MALEFICA.jpg"
-                                    class="card-img-top object-fit-cover" alt="Funko-Malefica">
-                            </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Funko DISNEY</h6>
-                                <p class="card-text">Tus funko DISNEY desde $9.990</p>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="col-6 col-md-4">
-                        <article class="card h-100 text-center rounded-0">
-                            <div class="ratio ratio-1x1">
-                                <img src="/assets/img/Productos/HARRY_POTTER.jpg" class="card-img-top object-fit-cover"
-                                    alt="Funko-HarryPotter">
-                            </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Funko WIZARDING WORLD</h6>
-                                <p class="card-text">Tus funko WIZARDING WORLD desde $9.990</p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <article class="card h-100 text-center rounded-0">
-
-                    <div class="d-flex align-items-center justify-content-center" style="height: 100%;">
-                        <img src="/assets/img/Productos/EXCLUSIVO-ELEVEN..jpg"
-                            class="img-fluid rounded object-fit-contain p-2" alt="Funko-StangerThings"
-                            style="max-height: 5000px;">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Funko ICÓNICOS</h5>
-                        <p class="card-text">Ediciones especiales de shows icónicos, desde $14.990</p>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <Section id="sale" class="Carruseles-web">
-        <h4 class="px-3 py-2 mb-0">Sale / Ultimas Oportunidades</h4>
-        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-
-                <div class="carousel-item active">
-                    <div class="container my-3">
-                        <div class="row g-2">
-                            <div class="col-2"><img src="./assets/img/ofertas/LLAVER-ETERNALIKARIS.jpg"
-                                    class="img-fluid rounded object-fit-cover" alt="LLAVER-ETERNALIKARIS"
-                                    style="width: 100% height: 50px;"></div>
-                            <div class="col-2"><img src="./assets/img/ofertas/LLAVER-WOMNG.jpg"
-                                    class="img-fluid rounded object-fit-cover" alt="LLAVER-WOMNG"
-                                    style=" width: 100% height: 50px;"></div>
-                            <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-CATWOMAN.jpg"
-                                    class="img-fluid rounded object-fit-cover" alt="LLAVERO-CATWOMAN"
-                                    style="width: 100% height: 50px;"></div>
-                            <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-ELEVEN.jpg"
-                                    class="img-fluid rounded object-fit-cover" alt="LLAVERO-ELEVEN"
-                                    style="width: 100% height: 50px;"></div>
-                            <div class="col-2"><img src="./assets/img/ofertas/LLAVER-ETERNALSERSI.jpg"
-                                    class="img-fluid rounded object-fit-cover" alt="LLAVER-ETERNALSERSI"
-                                    style="width: 100% height: 50px;"></div>
-                            <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-GORR.jpg"
-                                    class="img-fluid rounded object-fit-cover" alt="LLAVERO-GORR"
-                                    style="width: 100% height: 50px;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item my-3">
-                    <div class="container">
-                        <div class="row g-2">
-                            <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-HERMIONE.jpg"
-                                    class="img-fluid rounded object-fit-cover" alt="LLAVERO-HERMIONE"
-                                    style="width: 100% height: 50px;"></div>
-                            <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-IZUKU.jpg"
-                                    class="img-fluid rounded object-fit-cover" alt="LLAVERO-IZUKU"
-                                    style="width: 100% height: 50px;"></div>
-                            <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-LILO.jpg"
-                                    class="img-fluid rounded object-fit-cover" alt="LLAVERO-LILO"
-                                    style="width: 100% height: 50px;"></div>
-                            <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-MANDALORIAN.jpg"
-                                    class="img-fluid rounded object-fit-cover" alt="LLAVERO-MANDALORIAN"
-                                    style="width: 100% height: 50px;"></div>
-                            <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-NARUTO.jpg"
-                                    class="img-fluid rounded object-fit-cover" alt="LLAVERO-NARUTO"
-                                    style="width: 100% height: 50px;"></div>
-                            <div class="col-2"><img src="./assets/img/ofertas/LLAVERO-SONIC.jpg"
-                                    class="img-fluid rounded object-fit-cover" alt="LLAVERO-SONIC"
-                                    style="width: 100% height: 50px;"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Siguiente</span>
-            </button>
-        </div>
-    </section>
 
     <footer>
         <section id="contacto" class="col-12 py-4 px-4">
