@@ -37,6 +37,8 @@ nav > ul{
 article{
     border-radius: 4% !important;
 }
+
+
 /*FOOTER */
 footer {
     background-color: rgb(216, 59, 130);
@@ -58,5 +60,4 @@ footer {
 .card-body{
     display: flex;
     flex-direction: column;
-
 }
